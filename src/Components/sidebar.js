@@ -63,7 +63,7 @@ class MySideNav extends Component {
     render() {
         return (
             <div className="container">
-                <div className="navbar" style={{ border: '2px solid black', background: '#39435c', color: '#b8c7ce', height: '100%', width: 250 }}>
+                <div className="navbar" style={{ border: '2px solid black', background: '#39435c', color: '#b8c7ce', height: 1200, width: 250 }}>
                     <SideNav highlightColor='white' highlightBgColor='black' defaultSelected='' onItemSelection={(id, parent) => { this.handleClick(id, parent) }}>
                         <Nav id='Home'>
                             <NavIcon><SvgIcon size={20} icon={home} /></NavIcon>

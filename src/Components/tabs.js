@@ -27,7 +27,6 @@ class Tabi extends Component {
             {this.props.arr.map((ele) => {
                 if(ele.content === " ") {
                     return <TabStripTab  key={ele.tab }className="dark" title={ele.tab}> 
-                    <div onClick={() => this.props.delete(ele.tab)}> Close </div>
                         <MyFirstGrid />
                     
                </TabStripTab>

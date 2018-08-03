@@ -5,15 +5,11 @@ import Logo from './assets/TKS-logo.jpg'
 import './App.css';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="strip">
         <div className="Logo">
-        <img src={Logo} height="35"/>
+        <img src={Logo} alt="logo" height="35"/>
         </div>
         <MySideNav />
       </div>
